@@ -1,27 +1,111 @@
-# Web Development
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <title>Intro Page</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      html {
+        font-family: helvetica;
+      }
+      h1 {
+        margin-top: 0;
+        padding-top: 140px;
+        font-weight: normal;
+        font-size: 96px;
+        color: white;
+        font-family: Vollkorn, serif;
+      }
 
-Spring 2015
-The Starter League
+      h2 {
+        color: white;
+        font-family: Open Sans, serif;
+      }
 
-Knowing how to hack also means that when you have ideas, you’ll be able to implement them… It’s a big advantage, when you’re considering an idea like putting a college facebook online, if instead of merely thinking “That’s an interesting idea,” you can think instead “That’s an interesting idea. I’ll try building an initial version tonight.”
-- Paul Graham
+      .title {
+        width: 100%;
+        height: 100%;
+        background: black;
+      }
+      .container {
+        width: 840px;
+        margin: 0 auto;
+        margin-top: 0;
+      }
+      .content {
 
-## Instructors
+      }
+      .content p {
+        text-align: left;
+        padding-left: 50px;
+      }
+      img {
+        width: 150px;
+        height: 150px;
+        border-radius: 100px;
+        margin-left: 100px;
+        margin-right: 100px;
 
-Arjun Venkataswamy
-http://www.starterschool.com/assets/instructors/arjun-venkataswamy/thumb-341faa01fc7fb4ab5ac4aef8c22c15bf.jpg
+      }
 
-Lanny Bose
-https://lh4.googleusercontent.com/-rKbggUtiGMc/AAAAAAAAAAI/AAAAAAAAAK8/CAHMFpfPlm4/s120-c/photo.jpg
+      div p {
+        text-align: center
+      }
 
-## Students
+      blockquote {
+        font-style: italic;
+        font-weight: bold;
+      }
 
-Alina Badalich
-Jacob Baker
-James McCarthy
-Jolyon Ticer-Wurr
-Kristina Wang
-Natalya Chytry
-Patrick McKernin
-Shannon Hall
-Shawn Fisher
+      ul {
+        list-style: none;
+        margin-left: 50px;
+      }
+
+      .arjun .lanny {
+        display: inline-block;
+      }
+
+    </style>
+  </head>
+<body>
+  <div class="title">
+    <div class="container">
+      <h1>Web Development</h1>
+      <h2>Spring 2015</h2>
+      <h2>The Starter League</h2>
+    </div>
+  </div>
+  <div class="content">
+
+
+    <p>Knowing how to hack also means that when you have ideas, you'll be able to implement them... It's a big advantage, when you're considering an idea like putting a college facebook online, if instead of merely thinking "That's an interesting idea," you can think instead "That's an interesting idea. I'll try building an initial version tonight."   - Paul Graham</p>
+  </div>
+  <h2>Instructors</h2>
+
+  <div class="arjun">
+    <p>Arjun Venkataswamy</p>
+    <img src="http://www.starterschool.com/assets/instructors/arjun-venkataswamy/thumb-341faa01fc7fb4ab5ac4aef8c22c15bf.jpg">
+  </div>
+  <div class="lanny">
+    <p>Lanny Bose</p>
+    <img src="https://lh4.googleusercontent.com/-rKbggUtiGMc/AAAAAAAAAAI/AAAAAAAAAK8/CAHMFpfPlm4/s120-c/photo.jpg">
+  </div>
+
+  <h2>Students</h2>
+    <ul>
+      <li>Alina Badalich</li>
+      <li>Jacob Baker</li>
+      <li>James McCarthy</li>
+      <li>Jolyon Ticer-Wurr</li>
+      <li>Kristina Wang</li>
+      <li>Natalya Chytry</li>
+      <li>Patrick McKernin</li>
+      <li>Shannon Hall</li>
+      <li>Shawn Fisher</li>
+    </ul>
+</body>
